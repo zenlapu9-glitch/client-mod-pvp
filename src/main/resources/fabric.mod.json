@@ -1,0 +1,24 @@
+
+{
+  "schemaVersion": 1,
+  "id": "zeroclient",
+  "version": "${version}",
+  "name": "ZERO CLIENT",
+  "description": "A futuristic purple and black Minecraft PvP client.",
+  "authors": [
+    "ZERO CLIENT Team"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.zeroclient.ZeroClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
